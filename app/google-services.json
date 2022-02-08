@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "920131314414",
+    "firebase_url": "https://mylyfe-fa56c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mylyfe-fa56c",
+    "storage_bucket": "mylyfe-fa56c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920131314414:android:b305ffba66d3096d28c9ff",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920131314414-1lbmah5vpes8a504msu682lmn7978duq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example",
+            "certificate_hash": "cf9ed8543159bf964ac48b50764bd5280a9550f6"
+          }
+        },
+        {
+          "client_id": "920131314414-pi6hrdtq8vqri1c2jonf3kilv6d981tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57valL1_MJo41Ti_4JZe0lFHIrx3QIRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920131314414-pi6hrdtq8vqri1c2jonf3kilv6d981tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

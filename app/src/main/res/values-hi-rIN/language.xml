@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLyfe</string>
+    <string name="selected_language">हिन्दी</string>
+    <string name="language">मेरा जीवन</string>
+
+    <string name="login">लॉगिन</string>
+    <string name="password">पासवर्ड</string>
+    <string name="e_mail">ईमेल</string>
+    <string name="tag">आइए हममें शामिल हों और हमारे साथ अपना रिश्ता बनाएं</string>
+    <string name="register">पंजीकृत करें</string>
+    <string name="re_type_password">पासवर्ड पुन: लिखें</string>
+    <string name="your_name">पूरा नाम</string>
+    <string name="profile_title">प्रोफ़ाइल पृष्ठ</string>
+    <string name="title_activity_register">गतिविधि पंजीकृत करें</string>
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+</resources>

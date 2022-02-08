@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_imageview"
+        android:layout_width="85dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_baseline_coffee_24" />
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="179dp"
+        android:text="MyLyfe"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_imageview" />
+
+    <EditText
+        android:id="@+id/user_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="@color/textColor"
+        android:textColorHint="@color/editTextHint"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_textview" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="@color/textColor"
+        android:ems="10"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColorHint="@color/editTextHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_edittext" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="221dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="101dp"
+        android:background="@drawable/button_shape"
+        android:text="Login"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext" />
+
+    <TextView
+        android:id="@+id/register_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="256dp"
+        android:text="Register"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/forgot_password_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="97dp"
+        android:text="Forgot Password ?"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/btnHindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/button_shape"
+        android:text="Hindi"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_textview" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/button_shape"
+        android:text="English"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgot_password_textview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/pic_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="34dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/male_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:text="Male"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic_imageview" />
+
+    <CheckBox
+        android:id="@+id/female_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Female"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/other_checkbox"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toEndOf="@+id/male_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/pic_imageview" />
+
+    <CheckBox
+        android:id="@+id/other_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="48dp"
+        android:text="Other"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic_imageview" />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="hallahansean8@gmail.com"
+        android:hint="Email"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/female_checkbox" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="bananas"
+        android:hint="Password"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext" />
+
+    <EditText
+        android:id="@+id/fullname_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:text="Sean Hallahan"
+        android:hint="Name"
+        android:textColor="@color/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext" />
+
+    <EditText
+        android:id="@+id/college_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:text="NCI"
+        android:hint="College"
+        android:textColor="@color/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullname_edittext" />
+
+    <EditText
+        android:id="@+id/course_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:text="Computing"
+        android:hint="Course"
+        android:textColor="@color/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/college_edittext" />
+
+    <EditText
+        android:id="@+id/phone_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:text="(086) 303 3934"
+        android:hint="Number"
+        android:textColor="@color/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_edittext" />
+
+    <EditText
+        android:id="@+id/passions_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:text="Java, Mobile App Dev, Cloud Services"
+        android:hint="Things you like"
+        android:textColor="@color/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_edittext" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="205dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/textColor"
+        android:text="register"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passions_edittext" />
+
+    <TextView
+        android:id="@+id/profile_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="168dp"
+        android:text="Profile Page"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
